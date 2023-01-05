@@ -24,7 +24,7 @@ export default class StateClass extends React.Component {
     render() {
 
 
-        // по дефолту:
+       
         const name = this.props.name;
         const {...props} = this.props;
         return (
