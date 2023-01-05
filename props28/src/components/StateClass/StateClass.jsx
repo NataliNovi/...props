@@ -1,10 +1,8 @@
 import styles from './stateClass.module.scss';
 import React from 'react';
 
-//через спред и классы
 export default class StateClass extends React.Component {
 
-//это для дефортных пропсов:
     static defaultProps = {
         name: "Hello!"
     }
@@ -22,9 +20,6 @@ export default class StateClass extends React.Component {
             );
         }
     render() {
-
-
-       
         const name = this.props.name;
         const {...props} = this.props;
         return (

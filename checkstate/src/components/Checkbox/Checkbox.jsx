@@ -1,8 +1,6 @@
 import React from "react";
 //import styles from './checkbox.module.scss';
 
-
-
 export default class Checkbox extends React.Component {
 
     static defaultProps = {
@@ -16,7 +14,6 @@ export default class Checkbox extends React.Component {
 	    };
 	  };
 	
-    
     handleChange = () => {
         //меняем состояние cheked на обратное
         this.setState({
